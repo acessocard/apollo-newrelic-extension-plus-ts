@@ -1,0 +1,45 @@
+{
+  "name": "apollo-newrelic-extension-plus-ts",
+  "version": "1.0.0",
+  "description": "This package contains the code from the apollo-newlrec-extension package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage --forceExit",
+    "test:ci": "jest --coverage --ci",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "lint": "gts check",
+    "lint:ci": "gts check",
+    "build": "yarn run compile",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essaji/apollo-newrelic-extension-plus.git"
+  },
+  "keywords": [
+    "Apollo"
+  ],
+  "author": "Eesa Abid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/essaji/apollo-newrelic-extension-plus/issues"
+  },
+  "homepage": "https://github.com/essaji/apollo-newrelic-extension-plus#readme",
+  "dependencies": {
+    "graphql-extensions": "^0.9.1",
+    "graphql-tag": "^2.10.1",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.3",
+    "@types/node": "^10.0.3",
+    "@types/ramda": "^0.26.19",
+    "gts": "^1.1.0",
+    "typescript": "~3.5.0"
+  }
+}
