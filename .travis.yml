@@ -12,13 +12,8 @@ install:
 
 jobs:
   include:
-    # - stage: Build and test
-    #   script:
-    #     - yarn build
-    #     - yarn test:ci
     - stage: npm release
       script:
-        # - yarn version --patch
         - yarn build
       deploy:
         provider: npm
