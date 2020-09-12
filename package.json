@@ -1,6 +1,6 @@
 {
   "name": "apollo-newrelic-extension-plus-ts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This package contains the code from the apollo-newlrec-extension package",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
